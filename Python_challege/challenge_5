@@ -1,0 +1,7 @@
+"""
+he list of non-negative integers that are less than 'n' Print the square of each number on a separate line. example n=3 means print 0,1,4, in separate line
+"""
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i*i)
