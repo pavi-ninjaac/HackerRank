@@ -1,0 +1,20 @@
+"""
+find the given year is leap year or not
+"""
+def is_leap(year):
+    leap = False
+
+    if year%4==0: #if it evenly divide by 4 means leap year
+        if (year/4) %2==0: 
+            leap=True
+    elif year%100==0: 
+        leap=False
+    elif year%400==0: # if it evenly divided by 400 means leap year
+        if (year/400) %2==0: 
+            leap=True
+
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
