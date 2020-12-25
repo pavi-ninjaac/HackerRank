@@ -15,7 +15,7 @@ Input Format
 A single line containing a string .
 """
 
-
+##########################
 
 s='aQ2'
 for test in ('isalnum', 'isalpha', 'isdigit', 'islower', 'isupper'):
