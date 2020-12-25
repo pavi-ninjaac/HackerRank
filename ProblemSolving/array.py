@@ -26,7 +26,7 @@ def matchingStrings(s,q):
     print(*[sum(a[i:i+len(s)]) for i in range(0,len(a),len(s)+1)],sep='\n')   
 matchingStrings(['aba', 'baba', 'aba', 'xzxb'],['aba', 'xzxb', 'ab'])
 
-###################################################################################
+##############################################################################################
 
 import numpy as np
 
